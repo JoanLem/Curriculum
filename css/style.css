@@ -512,7 +512,7 @@ button:hover {
         top: 0;
         position: fixed;
         z-index: 1000;
-        border: 1px solid #ff8c00;
+        border-bottom: 1px solid #ff8c00;
 
     }
 
