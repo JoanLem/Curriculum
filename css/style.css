@@ -110,8 +110,12 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-    background: rgb(32, 51, 56);
+    background: var(--color1);
 }
+header nav ul li a:hover {
+    color: var(--color3);
+}
+
 
 header nav ul li a span {
     margin-right: 10px;
