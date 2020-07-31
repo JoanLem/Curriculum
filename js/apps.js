@@ -16,3 +16,7 @@ function main() { //funcion para animar el aparece o desaparecer el menu
         }
     });
 }
+
+function modal() {
+    
+}
