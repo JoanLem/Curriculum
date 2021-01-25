@@ -10,7 +10,8 @@
     <title>Joanlemus.com</title>
     <link rel="shortcut icon" href="img/icono.png" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://kit.fontawesome.com/dcac40e35f.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/fonts.css"> -->
 </head>
 
 <body>
@@ -18,85 +19,162 @@
 
         <div class="menu_bar">
             <a class="bt-menu">
-                <span class="icon-menu"></span>Menu
+                <span class="fas fa-bars"></span>Menu
             </a>
         </div>
         <nav>
             <ul>
-                <li><a href="#skill"><span class="icon-stats-bars2"></span>Skill</a></li>
-                <li><a href="#knowledge"><span class="icon-pencil"></span>Knowledge</a></li>
-                <li><a href="#jobsexperience"><span class="icon-briefcase"></span>Job's Experience</a></li>
-                <li><a href="#contactme"><span class="icon-mail4"></span>Contact me</a></li>
+                <li><a href="#jobsexperience"><span class="fas fa-user-tie"></span>Job's Experience</a></li>
+                <li><a href="#knowledge"><span class="fas fa-lightbulb"></span>Knowledge</a></li>
+                <li><a href="#skill"><span class="far fa-chart-bar"></span></span>Skill</a></li>
+                <li><a href="#contactme"><span class="fas fa-envelope"></span>Contact me</a></li>
             </ul>
         </nav>
         <div class="info">
             <h1>Joan S. <i>Lemus Dueñas </i> </h1>
             <hr>
             <h3>Systems Engineer</h3>
-            <h4>25 Años</h4>
+            <h4>27 Años</h4>
         </div>
         <div class="foto">
             <img src="img/profile.jpg" alt="">
         </div>
     </header>
 
-    <!-- Contenedor para Skill -->
-    <div class="container" id="skill">
+
+    <!-- Contenedor para experiencia laboral-->
+    <div class="container" id="jobsexperience">
         <div class="title">
             <div class="titlecentro">
-                <h1><span class="icon-stats-bars2"></span> Skills </h1>
+                <h1><i class="fas fa-user-tie"></i> Job´s Experience </h1>
             </div>
             <div class="decoration"></div>
         </div>
-        <!-- Bases de Datos-->
-        <div class="skill">
-            <h2> <span class="icon-database"></span> <br> DataBases </h2>
-            <h4>SQL - Mysql, Sql Server. <br> NoSQL - mongoDB.</h4>
-        </div>
-        <!-- control de versiones-->
-        <div class="skill">
-            <div>
-                <h2> <span class="icon-git"></span> <br>Control Version</h2>
+        <div class="timeline">
+            <div class="linea"></div>
+
+            <div class="item">
+                <div class="titulo">
+                    <p>Cjg+Ingenieria </p>
+                </div>
+                <div class="fecha">
+                    <p>Mar 2012 <br>Dic 2013</p>
+                </div>
+                <div class="cargo">
+                    <p>Ingeniero Junior</p>
+                </div>
+                <article class="descripcion">
+                    - Administrador de Active Directory. <br>
+                    - Monitoreo y soporte de servidores de aplicaciones. <br>
+                    - Soporte a infraestructura tecnología (Network, Suport IT). <br>
+                    - Diseño e implementación de plataforma web Interna (Intranet corporativa).
+
+                </article>
+
             </div>
-            <h4>Git<br>Git lab.</h4>
-        </div>
-        <!-- Metodologias Agiles-->
-        <div class="skill">
-            <h2> <span class="icon-make-group"></span><br>Agile methodology</h2>
-            <h4>Metodologia agile Scrum<br>Programación extrema – xp<br>Metodologia agile Kanban</h4>
-        </div>
 
-        <!-- Systemas Operativos-->
-        <div class="skill">
-            <h2><span class="icon-terminal"></span> <br>OS</h2>
-            <h4>Windows.<br>Linux.</h4>
-        </div>
-        <!-- lenguajes de Programacion-->
-        <div class="skill">
-            <h2><span class="icon-embed2"></span> <br>LANGUAGES</h2>
-            <h4>
-                Javascript
-                <br>
-                PHP
-                <br>
-                Python
-                <br>
-                HTML5
-                <br>
-                CSS
-            </h4>
-        </div>
-        <!-- Habilidades de trabajo-->
-        <div class="skill">
-            <h2><span class="icon-steam"></span> <br>OS</h2>
-            <h4>Trabajo en Equipo.<br>Habilidades de Comunicacion.<br>Colaboracion.<br>Escucha Activa.</h4>
-        </div>
-        <!-- Marcos de Trabajo-->
-        <div class="skill">
-            <h2><span class="icon-insert-template"></span> <br>Framework</h2>
-            <h4>Angular.</h4>
-        </div>
+            <div class="item">
+                <div class="titulo">
+                    <p>Teleperformance Colombia</p>
+                </div>
+                <div class="fecha">
+                    <p>Ago 2014 <br>Dic 2015</p>
+                </div>
+                <div class="cargo">
+                    <p>Analista de Soporte IT</p>
+                </div>
+                <article class="descripcion">
+                    - Asistencia Remota/sitio a software de aplicaciones o hardware deacuerdo a los requerimientos. <br>
+                    - Proporcionar Soporte a infraestructura tecnologia (Dominio corporativo, network, Telefonia VoIP,
+                    Aplicaciones, Servidores). <br>
+                    - Apoyo a clientes para identificar las necesidades de negocio a nivel tecnológico. <br>
+                    - Documentación de Incidentes por afectación.
+                </article>
 
+            </div>
+            <div class="item">
+                <div class="titulo">
+                    <p>Freelance, Inclops</p>
+                </div>
+                <div class="fecha">
+                    <p>Feb 2016 <br> Abr 2018</p>
+                </div>
+                <div class="cargo">
+                    <p>Web Developer Full Stack</p>
+                </div>
+                <article class="descripcion">
+                    - Definicion de Requerimientos Funcionales y no funcionales de software. <br>
+                    - Maquetacion de Frontend (HTML5, Css, JavaScript). <br>
+                    - Integracion de Tecnologias de Backend / Frontend en plataformas Web (php, Python). <br>
+                    - Diseñar e implemantar mejoras a nivel de UX. <br>
+                    - Desarrollo de modulos para plataformas autoadministrables. <br>
+                    - Estructuracion y diseño de BD (SQL, NoSQL). <br>
+                </article>
+
+            </div>
+            <!-- experience Scotiabank -->
+            <div class="item">
+                <div class="titulo">
+                    <p>Scotiabank GBS</p>
+                </div>
+                <div class="fecha">
+                    <p>Jun 2018 <br> Mar 2019</p>
+                </div>
+                <div class="cargo">
+                    <p>Quality Assurance Analyst</p>
+                </div>
+                <article class="descripcion">
+                    - Asegurar la calidad en software en los proyectos asignados (Manual, Automatizado). <br>
+                    - Capacitacion a nuevos integrantes de equipo QA. <br>
+                    - Documentacion tecnica y de negocio, Manuales, requerimientos Del cliente. <br>
+                    - Propuestas de soluciones y mejoras XU del producto software. <br>
+                    - Implementar practicas y artefactos de metodologias de desarollo agil.
+
+                </article>
+
+            </div>
+            <!-- Experience IKBO SAS -->
+            <div class="item">
+                <div class="titulo">
+                    <p>IKBO S.A.S</p>
+                </div>
+                <div class="fecha">
+                    <p>Jul 2019 <br> May 2020</p>
+                </div>
+                <div class="cargo">
+                    <p>Desarrollador de Software Junior II</p>
+                </div>
+                <article class="descripcion">
+                    - Análisis de requerimientos y necesidad del cliente <br>
+                    - Desarrollo de informes, maestros, dashboard <br>
+                    - consultoría y aseguramiento de calidad <br>
+                    - Documentacion técnica de software <br>
+                    <i>Projectos: BlumSales, eFactura. </i> 
+                </article>
+
+            </div>
+            <!-- Experience Virgin Mobile Colombia-->
+            <div class="item">
+                <div class="titulo">
+                    <p>Virgin Mobile</p>
+                </div>
+                <div class="fecha">
+                    <p>Oct 2020 <br> Currently</p>
+                </div>
+                <div class="cargo">
+                    <p>Analista de Software</p>
+                </div>
+                <article class="descripcion">
+                    - Liderazgo Tecnico de Proyectos <br>
+                    - Control y revision de Codgio Bajo estandares SOLID y buenas practicas<br>
+                    - consultoría y aseguramiento de calidad <br>
+                    - Documentacion técnica de Proyectos <br>
+                    - Liderazgo de Equipos Agiles (Scrum) <br>
+                    <i>Projectos: Logistic MVCO, Integraciones con Experian, PSE/ACH. </i> 
+                </article>
+
+            </div>
+        </div>
 
     </div>
 
@@ -104,7 +182,7 @@
     <div class="container black" id="knowledge">
         <div class="title">
             <div class="titlecentro black">
-                <h1><span class="icon-pencil"></span> Knowledge </h1>
+                <h1><i class="far fa-lightbulb"></i> Knowledge </h1>
             </div>
             <div class="decoration"></div>
         </div>
@@ -172,107 +250,109 @@
             </div>
         </div>
 
+
+<!-- contenedor para Otros Additional Training -->
+<div class="container black" id= "training">
+    <div class="title">
+        <div class="titlecentro black">
+            <h1><i class="far fa-chart-bar"></i> Additional Training</h1>
+        </div>
+        <div class="decoration"></div>
     </div>
 
-    <!-- Contenedor para experiencia laboral-->
-    <div class="container" id="jobsexperience">
+    <p>
+    •	Curso de Postman, Arquitectura Frontend; Platzi, 2020 <br>
+    •	Curso de Prework: Buenas Prácticas y Entorno de Desarrollo, JavaScript; Platzi, 2020 <br>
+    •	Curso de Scrum, Gestión de Proyectos; Platzi, 2020 <br>
+    •	Curso de SQL y MySQL, Desarrollo Backend con Ruby; Platzi, 2020 <br>
+    •	Fundamentos de Bases de Datos, Big Data y Data Science; Platzi, 2020 <br>
+    •	Fundamentos de JavaScript, JavaScript; Platzi, 2020 <br>
+    •	Angular Framework Certification: “Framework Frontend Web Development”; Udemy. Cloud; Currently. <br>
+    •	OATS Certification - Oracle Automation Test Suit: “tools of Automation for Software testing”; Oracle Academy. Bogota D.C; 2018. <br>
+   </p>
+
+
+   </div>
+
+
+    </div>
+
+    <!-- Contenedor para Skill -->
+    <div class="container" id="skill">
         <div class="title">
             <div class="titlecentro">
-                <h1><span class="icon-briefcase"></span> Job´s Experience </h1>
+                <h1><i class="far fa-chart-bar"></i> Skills </h1>
             </div>
             <div class="decoration"></div>
         </div>
-        <div class="timeline">
-            <div class="linea"></div>
-
-            <div class="item">
-                <div class="titulo">
-                    <p>Cjg+Ingenieria </p>
-                </div>
-                <div class="fecha">
-                    <p>Mar 2012 <br>Dic 2013</p>
-                </div>
-                <div class="cargo">
-                    <p>Ingeniero Junior</p>
-                </div>
-                <article class="descripcion">
-                    - Administrador de Active Directory. <br>
-                    - Monitoreo y soporte de servidores de aplicaciones. <br>
-                    - Soporte a infraestructura tecnología (Network, Suport IT). <br>
-                    - Diseño e implementación de plataforma web Interna (Intranet corporativa).
-
-                </article>
-
+        <!-- Bases de Datos-->
+        <div class="skill">
+            <h2><i class="fas fa-database"></i> <br> DataBases </h2>
+            <h4>SQL - Mysql, Sql Server. <br> NoSQL - mongoDB.</h4>
+        </div>
+        <!-- control de versiones-->
+        <div class="skill">
+            <div>
+                <h2><i class="fab fa-git-alt"></i><br>Control Version</h2>
             </div>
-
-            <div class="item">
-                <div class="titulo">
-                    <p>Teleperformance Colombia</p>
-                </div>
-                <div class="fecha">
-                    <p>Ago 2014 <br>Dic 2015</p>
-                </div>
-                <div class="cargo">
-                    <p>Analista de Soporte IT</p>
-                </div>
-                <article class="descripcion">
-                    - Asistencia Remota/sitio a software de aplicaciones o hardware deacuerdo a los requerimientos. <br>
-                    - Proporcionar Soporte a infraestructura tecnologia (Dominio corporativo, network, Telefonia VoIP,
-                    Aplicaciones, Servidores). <br>
-                    - Apoyo a clientes para identificar las necesidades de negocio a nivel tecnológico. <br>
-                    - Documentación de Incidentes por afectación.
-                </article>
-
-            </div>
-            <div class="item">
-                <div class="titulo">
-                    <p>Freelance, Inclops</p>
-                </div>
-                <div class="fecha">
-                    <p>Feb 2016 <br> Abr 2018</p>
-                </div>
-                <div class="cargo">
-                    <p>Web Developer Full Stack</p>
-                </div>
-                <article class="descripcion">
-                    - Definicion de Requerimientos Funcionales y no funcionales de software. <br>
-                    - Maquetacion de Frontend (HTML5, Css, JavaScript). <br>
-                    - Integracion de Tecnologias de Backend / Frontend en plataformas Web (php, Python). <br>
-                    - Diseñar e implemantar mejoras a nivel de UX. <br>
-                    - Desarrollo de modulos para plataformas autoadministrables. <br>
-                    - Estructuracion y diseño de BD (SQL, NoSQL). <br>
-                </article>
-
-            </div>
-            <div class="item">
-                <div class="titulo">
-                    <p>Scotiabank GBS</p>
-                </div>
-                <div class="fecha">
-                    <p>Jun 2018 <br> Mar 2019</p>
-                </div>
-                <div class="cargo">
-                    <p>Quality Assurance Analyst</p>
-                </div>
-                <article class="descripcion">
-                    - Asegurar la calidad en software en los proyectos asignados (Manual, Automatizado). <br>
-                    - Capacitacion a nuevos integrantes de equipo QA. <br>
-                    - Documentacion tecnica y de negocio, Manuales, requerimientos Del cliente. <br>
-                    - Propuestas de soluciones y mejoras XU del producto software. <br>
-                    - Implementar practicas y artefactos de metodologias de desarollo agil.
-
-                </article>
-
-            </div>
+            <h4>Git<br>GitLab <br> gitHub</h4>
+        </div>
+        <!-- Metodologias Agiles-->
+        <div class="skill">
+            <h2><i class="fas fa-chart-line"></i><br>Agile methodology</h2>
+            <h4>Metodologia agile Scrum<br>Programación extrema – xp<br>Metodologia agile Kanban</h4>
         </div>
 
+        <!-- Systemas Operativos-->
+        <div class="skill">
+            <h2><i class="fab fa-linux"></i><br>OS</h2>
+            <h4>Windows.<br>Linux.</h4>
+        </div>
+        <!-- lenguajes de Programacion-->
+        <div class="skill">
+            <h2><i class="fas fa-code"></i><br>LANGUAGES</h2>
+            <h4>
+                Javascript
+                <br>
+                PHP
+                <br>
+                Python
+                <br>
+                HTML5
+                <br>
+                CSS
+            </h4>
+        </div>
+        <!-- Habilidades de trabajo-->
+        <div class="skill">
+            <h2><i class="fas fa-user-shield"></i><br>Soft Skills</h2>
+            <h4>Trabajo en Equipo.<br>Comunicación Asertiva.<br>Colaboración.<br>Escucha Activa.</h4>
+        </div>
+        <!-- Marcos de Trabajo-->
+        <div class="skill">
+            <h2><i class="fab fa-angular"></i></span> <br>Framework</h2>
+            <h4>Angular <br> Vue Js <br> Phalcon </h4>
+        </div>
+        <!-- Herramientas de trabajo-->
+         <div class="skill">
+            <h2><i class="fab fa-docker"></i><br>Tools</h2>
+            <h4>Docker<br>
+            Visual studio code</h4>
+        </div>
+
+
     </div>
+
+
+    
+
+ 
 
     <!-- Contenedor para el formulario de contacto-->
     <div class="container black" id="contactme">
         <div class="title">
-            <div class="titlecentro black">
-                <h1><span class="icon-mail"></span>Contact me</h1>
+            <div class="titlecentro  black">
+                <h1><i class="fas fa-envelope-square"></i>Contact me</h1>
             </div>
             <div class="decoration"></div>
         </div>
@@ -292,10 +372,9 @@
 
     <!--Footer-->
     <footer>
-        <a href="https://www.instagram.com/jhojannlem/" target="_blank"><span class="icon-instagram"></span></a>
-        <a href="https://github.com/jhojannlem" target="_blank"><span class="icon-github"></span></a>
-        <a href="https://www.linkedin.com/in/joan-s-lemus-due%C3%B1as-b56181157/" target="_blank"> <span
-                class="icon-linkedin2"></span></a>
+        <a href="https://www.instagram.com/jhojannlem/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://github.com/jhojannlem" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/joan-s-lemus-b56181157/" target="_blank"><i class="fab fa-linkedin"></i></a>
     </footer>
 </body>
 
