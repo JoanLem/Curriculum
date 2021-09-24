@@ -209,7 +209,7 @@ header nav ul li a span {
     justify-content: center;
     align-items: left;
     color: var(--color1);
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 
 .skill i {
