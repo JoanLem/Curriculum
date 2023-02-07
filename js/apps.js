@@ -20,3 +20,9 @@ function main() { //funcion para animar el aparece o desaparecer el menu
 function modal() {
     
 }
+
+function edad(birthDate){
+var currentTime = new Date();
+var year = currentTime.getFullYear()
+return year - birthDate;
+}
